@@ -1,0 +1,5 @@
+/* Empty file to override vite defaults if needed */
+.app {
+  position: relative;
+  width: 100%;
+}

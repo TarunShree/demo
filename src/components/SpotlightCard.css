@@ -1,0 +1,24 @@
+.spotlight-wrapper {
+  position: relative;
+  border-radius: 20px;
+  border: 1px solid var(--glass-border);
+  background: var(--glass-bg);
+  overflow: hidden;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.spotlight-effect {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  transition: opacity 0.3s ease;
+  z-index: 0;
+}
+
+.spotlight-content {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+}
